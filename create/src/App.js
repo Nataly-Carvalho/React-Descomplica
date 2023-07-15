@@ -1,5 +1,6 @@
 import Voos from './Voos';
 import React from 'react';
+import { AssentosOnibus } from './AssentosOnibus';
 
 const Titulo = () => (
   <h1>
@@ -70,6 +71,7 @@ function App() {
     <div className="App">
       <Titulo />
       {/* <Voos/> */}
+      <AssentosOnibus/>
       <Lista />
       <Pessoa idade={19} />
       <Pessoa idade={13} />
